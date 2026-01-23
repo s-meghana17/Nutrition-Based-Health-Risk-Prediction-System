@@ -47,6 +47,7 @@ This project demonstrates **data analysis, ML model training, and real-time pred
 ---
 
 ## 📁 Project Structure
+```bash
 nutrition_health_risk/
 │
 ├── app/
@@ -72,18 +73,29 @@ nutrition_health_risk/
 ├── .gitignore
 └── README.md
 
+```
 ## ▶️ How to Run the Project Locally
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/nutrition_health_risk.git
 cd nutrition_health_risk
-Install Dependencies
+```
+2.Install Dependencies
+```bash
 pip install -r requirements.txt
-Run the Streamlit App
+```
+3.Run the Streamlit App
+```bash
 streamlit run app/app.py
 
 
+```
+##Screenshots
+```bash
+![Home Page](assets/Screenshot 2026-01-23 122253.png) 
+![Prediction Results](assets/screenshots/screenshot13.png)
+![Visual Analytics](assets/screenshots/screenshot14.png)
 ```
 ## 👩‍💻 Author
 **Meghana S**  
