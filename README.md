@@ -91,12 +91,17 @@ streamlit run app/app.py
 
 
 ```
-##Screenshots
-```bash
-![Home Page](assets/Screenshot 2026-01-23 122253.png) 
-![Prediction Results](assets/screenshots/screenshot13.png)
-![Visual Analytics](assets/screenshots/screenshot14.png)
-```
+## 📸 Application Screenshots
+
+### 🏠 Home Page
+![Home Page](assets/screenshot1.png)
+
+### 📊 Prediction Results
+![Prediction Results](assets/screenshot2.png)
+
+### 📈 Visual Analytics
+![Visual Analytics](assets/screenshot3.png)
+
 ## 👩‍💻 Author
 **Meghana S**  
 Final-year AIML Student  
