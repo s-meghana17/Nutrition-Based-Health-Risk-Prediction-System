@@ -1,0 +1,39 @@
+
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+.Python
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (too large)
+*.pkl
+models/*.pkl
+!models/README.md
+
+# Data files (optional)
+*.csv
+!data/.gitkeep
+
+# Environment
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+EOF
