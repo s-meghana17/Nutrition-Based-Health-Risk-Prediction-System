@@ -98,9 +98,8 @@ nutrition_health_risk/
 │ └── llm_assistant.py
 │
 ├── notebooks/
-│ ├── complete_training.ipynb
-│ ├── 01_eda.ipynb
-│ └── model_training.ipynb
+│ ├── exploration.ipynb
+│ ├── note.ipynb
 │
 ├── models/
 │ ├── linear_regression_model.pkl
@@ -138,7 +137,7 @@ pip install -r requirements.txt
 
 ### Step 3: Train Models (First Time Only)
 ```bash
-jupyter notebook notebooks/complete_training.ipynb
+jupyter notebook notebooks/note.ipynb
 ```
 ### Step 4: Get Gemini API Key (Free)
 ```bash
